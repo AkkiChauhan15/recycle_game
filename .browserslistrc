@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Browsers that we support
 
 [production]
@@ -10,3 +11,17 @@ not op_mini all
 last 1 chrome version
 last 1 firefox version
 last 1 safari version
+=======
+# Browsers that we support
+
+[production]
+>0.2%
+not dead
+not ie <= 11
+not op_mini all
+
+[development]
+last 1 chrome version
+last 1 firefox version
+last 1 safari version
+>>>>>>> 9ba668c0adf9eedbac1481366b60ab35327babff

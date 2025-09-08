@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "*.js": [
     "npm run lint:fix",
@@ -9,3 +10,16 @@
   ],
   ".*{rc,json},!.browserslistrc": "jsonlint"
 }
+=======
+{
+  "*.js": [
+    "npm run lint:fix",
+    "git add"
+  ],
+  "*.{json,css,md}": [
+    "prettier --write",
+    "git add"
+  ],
+  ".*{rc,json},!.browserslistrc": "jsonlint"
+}
+>>>>>>> 9ba668c0adf9eedbac1481366b60ab35327babff

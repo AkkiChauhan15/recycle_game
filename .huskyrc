@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 {
   "hooks": {
     "pre-commit": "lint-staged",
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
 }
+=======
+{
+  "hooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+}
+>>>>>>> 9ba668c0adf9eedbac1481366b60ab35327babff
